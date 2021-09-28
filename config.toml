@@ -1,3 +1,35 @@
 baseURL = 'https://kb10uy.org/'
 languageCode = 'ja-jp'
-title = 'Sunny Side Serendipity'
+title = 'Portal of Yū Kobayashi'
+theme = 'introduction'
+
+[params]
+themeStyle = "auto"
+showRSSButton = false
+fadeIn = false
+dateFormat = "2006/01/02"
+email = "kb10uy@kb10uy.org"
+
+[params.home]
+localTime = true
+timeZone = "Asia/Tokyo"
+timeFormat = "ja-JP"
+
+[params.share]
+twitter = true
+facebook = true
+
+[[params.social]]
+url = "https://twitter.com/kb10uy"
+icon = "twitter"
+icon_pack = "fab"
+
+[[params.social]]
+url = "https://mstdn.maud.io/@kb10uy"
+icon = "mastodon"
+icon_pack = "fab"
+
+[[params.social]]
+url = "https://github.com/kb10uy"
+icon = "github"
+icon_pack = "fab"
